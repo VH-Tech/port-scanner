@@ -1,8 +1,6 @@
 import socket
 import sys
 
-state=""
-
 target = "localhost"
 
 print("PORT SCANNER")
