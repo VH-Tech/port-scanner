@@ -6,7 +6,7 @@ target = "localhost"
 print("PORT SCANNER")
 
 try:
-    for port in range(63325):
+    for port in range(65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = s.connect_ex(("localhost",port))
         if result ==0:
